@@ -23,7 +23,14 @@
 
 }
 
-
+- (IBAction)tapsDetected:(UITapGestureRecognizer *)sender
+{
+    NSLog(@"Double Tap Detected!");
+}
+- (IBAction)panDetected:(UIPanGestureRecognizer *)sender
+{
+    NSLog(@"Pan Gesture Detected!");
+}
 
 /*
 #pragma mark - Navigation

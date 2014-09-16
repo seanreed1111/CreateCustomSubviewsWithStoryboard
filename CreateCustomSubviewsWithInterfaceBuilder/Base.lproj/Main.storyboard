@@ -19,15 +19,30 @@
                         <accessibility key="accessibilityConfiguration">
                             <bool key="isElement" value="YES"/>
                         </accessibility>
+                        <gestureRecognizers/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="squareSize">
                                 <integer key="value" value="35"/>
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="PEs-NB-Wi7" appends="YES" id="kys-lK-aPx"/>
+                            <outletCollection property="gestureRecognizers" destination="a8L-hn-Cn6" appends="YES" id="ul7-0C-xjN"/>
+                        </connections>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="wat-g6-f9D"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer numberOfTapsRequired="2" id="PEs-NB-Wi7">
+                    <connections>
+                        <action selector="tapsDetected:" destination="vXZ-lx-hvc" id="KbM-99-ktu"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="a8L-hn-Cn6">
+                    <connections>
+                        <action selector="panDetected:" destination="vXZ-lx-hvc" id="ABi-Ij-7GU"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="124" y="381"/>
         </scene>
