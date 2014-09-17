@@ -22,6 +22,10 @@
 		1421F5A519C8BCDD0064E1FB /* CreateCustomSubviewsWithInterfaceBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1421F5A419C8BCDD0064E1FB /* CreateCustomSubviewsWithInterfaceBuilderTests.m */; };
 		1421F5B019C8BD0A0064E1FB /* ChessBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1421F5AF19C8BD0A0064E1FB /* ChessBoardViewController.m */; };
 		1421F5B319C8BD1A0064E1FB /* ChessBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1421F5B219C8BD1A0064E1FB /* ChessBoardView.m */; };
+		14821EC419CA096400B2DA77 /* GameContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14821EC319CA096400B2DA77 /* GameContainerViewController.m */; };
+		14A1A80919C9D92A00636449 /* kangaroo-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 14A1A80819C9D92A00636449 /* kangaroo-icon.png */; };
+		14A1A80C19C9E1CA00636449 /* PieceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A1A80B19C9E1CA00636449 /* PieceView.m */; };
+		14A1A80F19C9E34800636449 /* GameContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A1A80E19C9E34800636449 /* GameContainerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +60,13 @@
 		1421F5AF19C8BD0A0064E1FB /* ChessBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessBoardViewController.m; sourceTree = "<group>"; };
 		1421F5B119C8BD1A0064E1FB /* ChessBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessBoardView.h; sourceTree = "<group>"; };
 		1421F5B219C8BD1A0064E1FB /* ChessBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessBoardView.m; sourceTree = "<group>"; };
+		14821EC219CA096400B2DA77 /* GameContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameContainerViewController.h; sourceTree = "<group>"; };
+		14821EC319CA096400B2DA77 /* GameContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameContainerViewController.m; sourceTree = "<group>"; };
+		14A1A80819C9D92A00636449 /* kangaroo-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kangaroo-icon.png"; sourceTree = "<group>"; };
+		14A1A80A19C9E1CA00636449 /* PieceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieceView.h; sourceTree = "<group>"; };
+		14A1A80B19C9E1CA00636449 /* PieceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieceView.m; sourceTree = "<group>"; };
+		14A1A80D19C9E34800636449 /* GameContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameContainerView.h; sourceTree = "<group>"; };
+		14A1A80E19C9E34800636449 /* GameContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameContainerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +96,12 @@
 		1421F56D19C8BCDD0064E1FB = {
 			isa = PBXGroup;
 			children = (
+				14821EC219CA096400B2DA77 /* GameContainerViewController.h */,
+				14821EC319CA096400B2DA77 /* GameContainerViewController.m */,
+				14A1A80D19C9E34800636449 /* GameContainerView.h */,
+				14A1A80E19C9E34800636449 /* GameContainerView.m */,
+				14A1A80A19C9E1CA00636449 /* PieceView.h */,
+				14A1A80B19C9E1CA00636449 /* PieceView.m */,
 				1421F5B119C8BD1A0064E1FB /* ChessBoardView.h */,
 				1421F5B219C8BD1A0064E1FB /* ChessBoardView.m */,
 				1421F5AE19C8BD0A0064E1FB /* ChessBoardViewController.h */,
@@ -131,6 +148,7 @@
 		1421F58019C8BCDD0064E1FB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				14A1A80819C9D92A00636449 /* kangaroo-icon.png */,
 				1421F58119C8BCDD0064E1FB /* CreateCustomSubviewsWithInterfaceBuilder-Info.plist */,
 				1421F58219C8BCDD0064E1FB /* InfoPlist.strings */,
 				1421F58519C8BCDD0064E1FB /* main.m */,
@@ -234,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14A1A80919C9D92A00636449 /* kangaroo-icon.png in Resources */,
 				1421F59219C8BCDD0064E1FB /* Images.xcassets in Resources */,
 				1421F58419C8BCDD0064E1FB /* InfoPlist.strings in Resources */,
 				1421F58D19C8BCDD0064E1FB /* Main.storyboard in Resources */,
@@ -257,8 +276,11 @@
 			files = (
 				1421F5B319C8BD1A0064E1FB /* ChessBoardView.m in Sources */,
 				1421F58A19C8BCDD0064E1FB /* CCSAppDelegate.m in Sources */,
+				14A1A80F19C9E34800636449 /* GameContainerView.m in Sources */,
 				1421F58619C8BCDD0064E1FB /* main.m in Sources */,
 				1421F5B019C8BD0A0064E1FB /* ChessBoardViewController.m in Sources */,
+				14821EC419CA096400B2DA77 /* GameContainerViewController.m in Sources */,
+				14A1A80C19C9E1CA00636449 /* PieceView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +485,7 @@
 				1421F5AA19C8BCDD0064E1FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1421F5AB19C8BCDD0064E1FB /* Build configuration list for PBXNativeTarget "CreateCustomSubviewsWithInterfaceBuilderTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +494,7 @@
 				1421F5AD19C8BCDD0064E1FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

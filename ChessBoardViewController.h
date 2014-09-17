@@ -10,6 +10,8 @@
 #import "ChessBoardView.h"
 
 @interface ChessBoardViewController : UIViewController  <UIGestureRecognizerDelegate>
+//@property (strong, nonatomic)UIView *containerView;
+
 - (IBAction)tapsDetected:(UITapGestureRecognizer *)sender;
 - (IBAction)panDetected:(UIPanGestureRecognizer *)sender;
 

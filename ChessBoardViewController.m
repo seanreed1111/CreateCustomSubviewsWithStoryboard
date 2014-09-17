@@ -17,19 +17,19 @@
 @implementation ChessBoardViewController
 
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-
-}
+//- (void)viewDidLoad
+//{
+//    [super viewDidLoad];
+//    
+//}
 
 - (IBAction)tapsDetected:(UITapGestureRecognizer *)sender
 {
-    NSLog(@"Double Tap Detected!");
+    NSLog(@"\nDouble Tap Detected!");
 }
 - (IBAction)panDetected:(UIPanGestureRecognizer *)sender
 {
-    NSLog(@"Pan Gesture Detected!");
+    NSLog(@"\nPan Gesture Detected!");
 }
 
 /*
